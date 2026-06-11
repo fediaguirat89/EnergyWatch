@@ -1,4 +1,4 @@
-# ⚡ EnergyWatch IoT Dashboard
+#  EnergyWatch IoT Dashboard
 
 > Application mobile de surveillance de consommation énergétique en temps réel via capteurs IoT
 
@@ -9,36 +9,36 @@
 
 ---
 
-## 📱 Aperçu
+##  Aperçu
 
 EnergyWatch est une application mobile développée avec **React Native & Expo**, conçue pour surveiller et analyser la consommation énergétique d'une maison ou d'un bâtiment industriel en temps réel. Elle s'interface avec des capteurs IoT (ESP8266/NodeMCU) pour collecter et visualiser les données de consommation.
 
 ---
 
-## ✨ Fonctionnalités
+##  Fonctionnalités
 
-### 🏠 Dashboard Principal
+###  Dashboard Principal
 - **Consommation en temps réel** — mise à jour automatique toutes les 5 secondes
 - **4 métriques clés** : consommation actuelle (kW), coût du jour (€), kWh mensuel, économies réalisées
 - **Comparaison** avec la veille et le mois précédent
 
-### 📊 Graphique 7 jours
+### Graphique 7 jours
 - Visualisation de la consommation sur la semaine
 - Identification automatique du **pic de consommation** (barre rouge)
 - Identification de la **consommation minimale** (barre verte)
 
-### ⚠️ Système d'alertes
+###  Système d'alertes
 - Détection automatique des **pics de consommation anormaux**
 - Notification avec heure et valeur du pic
 - Historique des alertes
 
-### 💡 Gestion des appareils connectés
+### Gestion des appareils connectés
 - Liste des appareils IoT connectés (chauffage, réfrigérateur, éclairage, chauffe-eau)
 - **Activation/désactivation** à distance (ON/OFF)
 - Affichage de la consommation par appareil (W) et du coût horaire (€/h)
 - Calcul du **total actif** en temps réel
 
-### 🧭 Navigation
+###  Navigation
 - 5 onglets : Accueil, Analyses, Appareils, Alertes, Réglages
 
 ---
@@ -55,7 +55,7 @@ EnergyWatch est une application mobile développée avec **React Native & Expo**
 
 ---
 
-## 🚀 Installation et lancement
+##  Installation et lancement
 
 ### Prérequis
 - Node.js v18+
@@ -85,7 +85,7 @@ npx expo start
 
 ---
 
-## 🏗️ Architecture du projet
+##  Architecture du projet
 
 ```
 EnergyWatch/
@@ -101,7 +101,7 @@ EnergyWatch/
 
 ---
 
-## 🔌 Intégration IoT (Hardware)
+##  Intégration IoT (Hardware)
 
 L'application est conçue pour s'interfacer avec des capteurs IoT basés sur **ESP8266/NodeMCU** :
 
@@ -121,7 +121,7 @@ L'application est conçue pour s'interfacer avec des capteurs IoT basés sur **E
 
 ---
 
-## 📈 Cas d'usage
+##  Cas d'usage
 
 | Secteur | Application |
 |---|---|
@@ -132,7 +132,7 @@ L'application est conçue pour s'interfacer avec des capteurs IoT basés sur **E
 
 ---
 
-## 🎯 Roadmap
+## Roadmap
 
 - [ ] Connexion API réelle avec capteurs ESP8266
 - [ ] Authentification utilisateur
@@ -144,7 +144,7 @@ L'application est conçue pour s'interfacer avec des capteurs IoT basés sur **E
 
 ---
 
-## 👩‍💻 Auteure
+##  Auteure
 
 **Fedia GUIRAT**
 - 🎓 Ingénieure en Systèmes Embarqués | Data Analyst
